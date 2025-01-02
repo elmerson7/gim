@@ -24,23 +24,14 @@ export default {
   },
   data() {
     return {
-      defaultImage: "/images/default.webp"
+      defaultImage: "./images/default.webp"
     };
   },
   computed: {
     getImagePath() {
-      // Verificar si existe la llave `image`
-      if (!this.exercise.image) return this.defaultImage;
-
-      // Ruta completa basada en el tipo de ejercicio y el nombre de la imagen
-      const imagePath = `/images/${this.type}/${this.exercise.image}.jpg`;
-
-      // Validar si la imagen existe
-      const img = new Image();
-      img.src = imagePath;
-
-      // Retornar la ruta o la imagen por defecto
-      return img.complete && img.naturalWidth !== 0 ? imagePath : this.defaultImage;
+      // Generar ruta dinámica
+      const imagePath = `./images/${this.type}/${this.exercise.image || "default"}.webp`;
+      return imagePath;
     }
   }
 };
