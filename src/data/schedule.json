@@ -1,0 +1,147 @@
+{
+    "schedule": [
+        {
+        "day": "Lunes",
+        "gym": {
+            "group": "Pecho y tríceps",
+            "exercises": [
+            {"name": "Press de banca", "name_en": "Bench Press", "sets": 4, "reps": 6},
+            {"name": "Press inclinado con mancuernas", "name_en": "Incline Dumbbell Press", "sets": 4, "reps": 8},
+            {"name": "Aperturas con mancuernas", "name_en": "Dumbbell Flyes", "sets": 3, "reps": 12},
+            {"name": "Fondos en paralelas", "name_en": "Parallel Bar Dips", "sets": 4, "reps": "10-12"},
+            {"name": "Extensiones de tríceps en polea", "name_en": "Tricep Pushdowns", "sets": 3, "reps": 15},
+            {"name": "Press declinado", "name_en": "Decline Bench Press", "sets": 3, "reps": 8}
+            ]
+        },
+        "calisthenics": {
+            "group": "Pecho y tríceps",
+            "exercises": [
+            {"name": "Flexiones estándar", "name_en": "Standard Push-Ups", "sets": 4, "reps": 15},
+            {"name": "Flexiones declinadas", "name_en": "Decline Push-Ups", "sets": 4, "reps": "12-15"},
+            {"name": "Dominadas pronadas", "name_en": "Pronated Pull-Ups", "sets": 4, "reps": "8-12"},
+            {"name": "Plancha estándar", "name_en": "Standard Plank", "sets": 3, "reps": "60 segundos"},
+            {"name": "Saltar cuerda", "name_en": "Jump Rope", "sets": 3, "reps": "3-5 minutos"}
+            ]
+        }
+        },
+        {
+        "day": "Martes",
+        "gym": {
+            "group": "Espalda y bíceps",
+            "exercises": [
+            {"name": "Dominadas asistidas", "name_en": "Assisted Pull-Ups", "sets": 4, "reps": "8-10"},
+            {"name": "Remo con barra", "name_en": "Barbell Row", "sets": 4, "reps": "6-8"},
+            {"name": "Remo con mancuernas", "name_en": "Dumbbell Rows", "sets": 3, "reps": 12},
+            {"name": "Jalón al pecho", "name_en": "Lat Pulldown", "sets": 4, "reps": 12},
+            {"name": "Curl de bíceps con barra", "name_en": "Barbell Bicep Curl", "sets": 3, "reps": 10},
+            {"name": "Face Pulls", "name_en": "Face Pulls", "sets": 3, "reps": 15}
+            ]
+        },
+        "calisthenics": {
+            "group": "Espalda y abdominales",
+            "exercises": [
+            {"name": "Fondos en paralelas", "name_en": "Parallel Bar Dips", "sets": 4, "reps": 12},
+            {"name": "Levantamiento de piernas colgado", "name_en": "Hanging Leg Raises", "sets": 4, "reps": 15},
+            {"name": "Abdominales en V", "name_en": "V-Ups", "sets": 4, "reps": 15},
+            {"name": "Plancha lateral", "name_en": "Side Plank", "sets": 3, "reps": "60 segundos por lado"},
+            {"name": "Saltar cuerda", "name_en": "Jump Rope", "sets": 3, "reps": "3-5 minutos"}
+            ]
+        }
+        },
+        {
+        "day": "Miércoles",
+        "gym": {
+            "group": "Piernas y hombros",
+            "exercises": [
+            {"name": "Sentadilla libre", "name_en": "Barbell Squat", "sets": 4, "reps": 6},
+            {"name": "Peso muerto rumano", "name_en": "Romanian Deadlift", "sets": 4, "reps": 8},
+            {"name": "Prensa de piernas", "name_en": "Leg Press", "sets": 3, "reps": 12},
+            {"name": "Press militar con barra", "name_en": "Overhead Press", "sets": 4, "reps": 8},
+            {"name": "Elevaciones laterales", "name_en": "Lateral Raises", "sets": 4, "reps": 15},
+            {"name": "Hip thrust", "name_en": "Barbell Hip Thrust", "sets": 3, "reps": 10}
+            ]
+        },
+        "calisthenics": {
+            "group": "Piernas y core",
+            "exercises": [
+            {"name": "Sentadillas con salto", "name_en": "Jump Squats", "sets": 4, "reps": 15},
+            {"name": "Handstands asistidos", "name_en": "Assisted Handstands", "sets": 3, "reps": "30 segundos"},
+            {"name": "Plancha dinámica", "name_en": "Dynamic Plank", "sets": 3, "reps": "60 segundos"},
+            {"name": "Rueda abdominal", "name_en": "Ab Wheel Rollouts", "sets": 3, "reps": 12},
+            {"name": "Saltar cuerda", "name_en": "Jump Rope", "sets": 3, "reps": "3-5 minutos"}
+            ]
+        }
+        },
+        {
+        "day": "Jueves",
+        "gym": {
+            "group": "Pecho y tríceps",
+            "exercises": [
+            {"name": "Press inclinado con barra", "name_en": "Incline Bench Press", "sets": 4, "reps": 6},
+            {"name": "Press plano con mancuernas", "name_en": "Flat Dumbbell Press", "sets": 4, "reps": 8},
+            {"name": "Aperturas con cable", "name_en": "Cable Flyes", "sets": 3, "reps": 12},
+            {"name": "Fondos con lastre", "name_en": "Weighted Dips", "sets": 3, "reps": "10-12"},
+            {"name": "Tríceps patada", "name_en": "Tricep Kickbacks", "sets": 3, "reps": 12},
+            {"name": "Pushdowns", "name_en": "Rope Pushdowns", "sets": 3, "reps": 15}
+            ]
+        },
+        "calisthenics": {
+            "group": "Pecho y funcional",
+            "exercises": [
+            {"name": "Flexiones estándar", "name_en": "Standard Push-Ups", "sets": 4, "reps": 15},
+            {"name": "Flexiones con push-up bars", "name_en": "Push-Up Bar Push-Ups", "sets": 4, "reps": "12-15"},
+            {"name": "Plank twists", "name_en": "Twisting Planks", "sets": 3, "reps": 10},
+            {"name": "Saltar cuerda", "name_en": "Jump Rope", "sets": 3, "reps": "3-5 minutos"}
+            ]
+        }
+        },
+        {
+        "day": "Viernes",
+        "gym": {
+            "group": "Espalda y bíceps",
+            "exercises": [
+            {"name": "Dominadas con peso", "name_en": "Weighted Pull-Ups", "sets": 4, "reps": "8-10"},
+            {"name": "Remo en máquina", "name_en": "Seated Cable Row", "sets": 4, "reps": 10},
+            {"name": "Jalón cerrado", "name_en": "Close-Grip Pulldown", "sets": 3, "reps": 12},
+            {"name": "Curl martillo con mancuernas", "name_en": "Hammer Curl", "sets": 3, "reps": 10},
+            {"name": "Curl concentrado", "name_en": "Concentration Curl", "sets": 3, "reps": 10},
+            {"name": "Remo invertido", "name_en": "Inverted Row", "sets": 4, "reps": 12}
+            ]
+        },
+        "calisthenics": {
+            "group": "Espalda y core",
+            "exercises": [
+            {"name": "Dominadas neutras", "name_en": "Neutral Grip Pull-Ups", "sets": 4, "reps": "10-12"},
+            {"name": "Plancha lateral con bandas", "name_en": "Side Plank with Resistance Bands", "sets": 3, "reps": "60 segundos"},
+            {"name": "Abdominales en V", "name_en": "V-Ups", "sets": 4, "reps": 15},
+            {"name": "Rueda abdominal", "name_en": "Ab Wheel Rollouts", "sets": 3, "reps": 12},
+            {"name": "Saltar cuerda", "name_en": "Jump Rope", "sets": 3, "reps": "3-5 minutos"}
+            ]
+        }
+        },
+        {
+        "day": "Sábado",
+        "gym": {
+            "group": "Piernas y hombros",
+            "exercises": [
+            {"name": "Sentadilla frontal", "name_en": "Front Squat", "sets": 4, "reps": 6},
+            {"name": "Peso muerto convencional", "name_en": "Conventional Deadlift", "sets": 4, "reps": 6},
+            {"name": "Zancadas con mancuernas", "name_en": "Dumbbell Lunges", "sets": 3, "reps": "12 por pierna"},
+            {"name": "Press militar sentado", "name_en": "Seated Dumbbell Press", "sets": 4, "reps": 10},
+            {"name": "Elevaciones frontales", "name_en": "Front Raises", "sets": 3, "reps": 12},
+            {"name": "Prensa inclinada", "name_en": "Incline Leg Press", "sets": 3, "reps": 12}
+            ]
+        },
+        "calisthenics": {
+            "group": "Piernas y resistencia",
+            "exercises": [
+            {"name": "Flexiones inclinadas", "name_en": "Incline Push-Ups", "sets": 4, "reps": 15},
+            {"name": "Sentadillas con salto", "name_en": "Jump Squats", "sets": 4, "reps": 15},
+            {"name": "Plancha dinámica", "name_en": "Dynamic Plank", "sets": 3, "reps": "60 segundos"},
+            {"name": "Rueda abdominal", "name_en": "Ab Wheel Rollouts", "sets": 3, "reps": 12},
+            {"name": "Saltar cuerda", "name_en": "Jump Rope", "sets": 3, "reps": "3-5 minutos"}
+            ]
+        }
+        }
+    ]
+}
